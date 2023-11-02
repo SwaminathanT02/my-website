@@ -1,0 +1,12 @@
+.top-container {
+    background-color: #FFD099;
+    position: relative;
+}
+.swami-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+.swami-image {
+    height: 225px;
+    border-radius: 50%;
+}
