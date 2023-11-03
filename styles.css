@@ -2,6 +2,11 @@
     background-color: #FFD099;
     position: relative;
 }
+
+.top-container code:hover {
+  color: blue;
+}
+
 .swami-title {
     font-family: 'Dancing Script', cursive;
     font-size: 70px;
@@ -15,8 +20,8 @@
     transform: scale(1.05);
 }
 
-/* DRUM MINI GAME */
-  
+
+/* DRUM MINI GAME */  
   .w {
     background-image: url('images/drum-kit/tom1.png');
   }
@@ -85,4 +90,59 @@
   }
   .drum:hover {
     transform: scale(1.1);
+  }
+
+
+
+  /* SIMON GAME */
+
+  #simon-level-title {
+    font-size: 1em;
+    margin:  5%;
+    color: black;
+  }
+  
+  .simon-btn {
+    display: inline-block;
+    height: 70px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5%;
+    box-shadow: 0 3px 4px 0 gray;
+    transition: 0.2s;
+  }
+  .simon-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .simon-red {
+    background-color: red;
+  }
+  
+  .simon-green {
+    background-color: green;
+  }
+  
+  .simon-blue {
+    background-color: blue;
+  }
+  
+  .simon-yellow {
+    background-color: yellow;
+  }
+  
+  .simon-pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+  .simon-container {
+    margin: 10% auto;
+    background-color: #87C4FF;
+    border-radius: 1%;
+    border: 2px solid black;
+    box-shadow: 0 3px 4px 0 gray;
+  }
+  .simon-container:hover {
+    transform: scale(1.01); 
   }
